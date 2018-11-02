@@ -1,2 +1,2 @@
 # getting-started
-I want wet feet
+Let's Get to them!
