@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Tahoma, Helvetica, sans-serif;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+a:hover{
+    background-color: #f00;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    margin: auto;
+    width: 80%;    
+}
+
+#main-header{
+    background-color: #008751;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Palatino;
+    font-style: italic;
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar{
+    background-color: #1e90ff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #000;
+    padding-right: 20px;
+    font-size: 1.2em;
+}
+
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+    
+}
+
+#showcase{
+    background-image: url(../images/download.jpeg);
+    min-height: 300px;
+    padding: 5px 0px;
+    background-position: top center;
+    color: #fff;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Media querie, condition:max width 600px; Styles will apply under 600px*/
+@media(max-width:600px){
+    #main{
+        /* Removes float from main & sidebar, and increase width to 100% */
+        float: none;
+        width: 100%;
+    }
+    
+    #sidebar{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media(max-width:900px){
+    #main{
+    
+    }
+}
