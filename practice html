@@ -1,0 +1,53 @@
+<div id="container">
+
+	<!-- Use the header area for the website name or logo -->
+	<header>
+		HTML and CSS
+	</header>
+	
+	<div id="banner">
+	
+		
+	</div>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+    <hr>
+	<nav> Main Page | Classes | Contact Us 
+	</nav>
+    <hr>
+
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+        
+        <p>The following tables show our class schedule.
+        </p>
+        
+        <div class="mobile">
+	
+			<h3></h3>
+		
+			<p></p>
+			
+		</div>
+        
+        <div class="desktop">
+            
+            <p>Steve’s Screen Services specializes in screening new patios, screen repairs, and screen cleaning. Our professional and courteous staff uses only the best products to service your screen needs.</p> 
+            
+            <p>Are your children or pets ruining your screen? Let us install a durable, tough screen that can handle your pet’s claws and your child’s outdoor activities. Our tough screen is guaranteed not to tear.</p> 
+            
+            <p>Contact us today for a free estimate, (555) 654-5555.</p> 
+        
+        </div>
+	</main>
+
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		&copy; Copyright 2016. All Rights Reserved.<br>
+		<a href="mailto:steve@screen.net">steve@screen.net</a>
+	</footer>
+
+	</div>
+	
+</body>
+</html>
