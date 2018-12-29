@@ -1,0 +1,34 @@
+Gregorys-MBP:~ francobadmofo$ ls -l ~
+total 128
+drwx------    4 francobadmofo  staff    128 Sep 27  2015 Applications
+drwx------+ 111 francobadmofo  staff   3552 Oct 24 17:48 Desktop
+drwx------+  22 francobadmofo  staff    704 Dec 15 19:41 Documents
+drwx------+ 697 francobadmofo  staff  22304 Dec 22 11:48 Downloads
+drwx------@  77 francobadmofo  staff   2464 Dec 16 17:43 Library
+drwx------+  22 francobadmofo  staff    704 Sep 15  2016 Movies
+drwx------+   8 francobadmofo  staff    256 May 29  2014 Music
+drwxr-xr-x   13 francobadmofo  staff    416 Sep 10 18:29 NetBeansProjects
+drwx------+  18 francobadmofo  staff    576 Nov 30 22:30 Pictures
+drwxr-xr-x+   4 francobadmofo  staff    128 Sep  5  2013 Public
+-rw-r--r--@   1 francobadmofo  staff    403 Oct 13 11:08 answers.Rmd
+-rw-r--r--    1 francobadmofo  staff  50516 Oct 13 11:09 answers.docx
+-rw-r--r--    1 francobadmofo  staff      0 Aug  7 18:10 newreactjs.jsx
+-rw-r--r--    1 francobadmofo  staff    318 Aug  7 18:39 newreactjs1.jsx
+-rw-r--r--@   1 francobadmofo  staff     31 Oct 10 19:09 practice 1 wedensday.R
+Gregorys-MBP:~ francobadmofo$ ls  ~
+Applications		Movies			answers.Rmd
+Desktop			Music			answers.docx
+Documents		NetBeansProjects	newreactjs.jsx
+Downloads		Pictures		newreactjs1.jsx
+Library			Public			practice 1 wedensday.R
+Gregorys-MBP:~ francobadmofo$ pwd
+/Users/francobadmofo
+Gregorys-MBP:~ francobadmofo$ cd Documents
+Gregorys-MBP:Documents francobadmofo$ cd Downloads
+Gregorys-MBP:Downloads francobadmofo$ ls
+Gregorys-MBP:Downloads francobadmofo$ pwd
+/Users/francobadmofo/Documents/Downloads
+Gregorys-MBP:Downloads francobadmofo$ man ls
+Gregorys-MBP:Downloads francobadmofo$ man man
+Gregorys-MBP:Downloads francobadmofo$ man sudo
+Gregorys-MBP:Downloads francobadmofo$ cd
