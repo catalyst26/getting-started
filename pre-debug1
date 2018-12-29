@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- This website template created by Gregory Francois -->
+<html lang="en">
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/hype.css">
+    <title>Shot By Hype</title>   
+</head>
+    <body>
+        <!-- Webpage name or logo -->  
+        <header id="main-header">
+            <div class="container">
+                    <h1><a href="index.html">VisualsByAdeyeye</a></h1></div>
+                    
+                    <!-- Make SM Icons, fixed CSS positions on side of screen -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="bio.html">Bio</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+        </header>
+        <!-- Add hyperlinks to other pages within the site -->
+        
+        
+        <!-- Main webpage content goes here -->
+        <section id="showcase">
+            <div class="container">
+                <!-- <h2>New Releases!</h2>
+                    <p>Huh? Well, Marty, I'm almost eighteen-years-old, it's not like I've never parked before. (shocked) What?</p> -->
+            </div>
+        </section>
+        <section id="main">
+            <div class="container">
+                <h2>Who We Are</h2>
+                    <p>Huh? Well, Marty, I'm almost eighteen-years-old, it's not like I've never parked before. (shocked) What? (takes her jacket off, and her dress shows a bit of cleavage) Marty, you seem so nervous, is something wrong? (looks away) No no. (looks back to see Lorraine take a drink of alcohol from a flask she had in her purse.) Lorraine, Lorraine, what are you doing?</p>
+            </div><div class="clr"></div>
+        </section>
+        <aside id="sidebar">
+            <div class="container">
+                <h3>Live Performances</h3>
+                    <p>What, I don't get what happened. That was the day I invented time travel. I remember it vividly. </p><div class="clr"></div>    
+            </div>
+        </aside>
+        <div class="clr"></div>
+        <!-- Page links, contact info, legal info goes here -->
+        <footer id="main-footer">
+            <div class="container">
+            Copyright &copy; 2018. All Rights Reserved.
+                <a href="mailto: visualsbyadeyeye@info.net">VisualsByAdeyeye</a>
+            </div>
+        </footer>
+        
+        <script>
+            var bZoo = 'Brooklynnn!!! Zoo!!!'
+            
+            alert(bZoo)
+        </script>
+    <div style="margin-top: 500px"></div>
+    </body>
+</html>
+
+
+
+
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    background: url("https://i.imgur.com/MJAkxbh.png");
+    color: #555;
+    font-family: Tahoma, Helvetica, sans-serif;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+/* Catch all so these elements wont go outside of their containers */
+img, embed, object, video {
+    max-width: 100%;
+}
+
+a:hover{
+    background-color: #ADD8E6;
+    color: #fff;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    min-height: inherit;
+}
+
+#main {
+    background-color: ;
+}
+
+#main-header{
+    background-color: #008751;
+    ;
+    color: #fff;
+    font-size: 1.0em;
+    font-family: Palatino;
+    font-style: italic;
+    font-weight: 900;
+    padding: 80px;
+    text-align: center;
+
+}
+#main-header a{
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 0.5em ;
+    background: ;
+    color: #000;
+    max-width: 80%;
+}
+
+#main-header li a{
+    list-style: none;
+}
+
+#main-header h1{
+    float: left;
+    width: 20%;
+}
+
+#showcase{
+    background: url(../images/download.jpeg) center center/cover;
+    height: 20em;
+    padding: 5px 0px;
+    color: #fff;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#main h2{
+    font-family: Palatino;
+    font-size: 1.5em;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar h3{
+    font-family: Palatino;
+    font-size: 1.3em;
+}
+#main-footer{
+    background-color: ;
+}
+
+/* Media querie, condition:max width 600px; Styles will apply under 600px*/
+@media(max-width:600px){
+    #main{
+        /* Removes float from main & sidebar, and increase width to 100% */
+        float: none;
+        width: 100%;
+    }
+@media(max-width:900px){
+    #main{
+        /* Removes float from main & sidebar, and increase width to 100% */
+        float: none;
+        width: 100%;
+    }
+    
+    #sidebar{
+        float: none;
+        width: 100%;
+    }
+}
+
+#main-footer{
+    padding: 30px;
+    font: 5px;
+}
