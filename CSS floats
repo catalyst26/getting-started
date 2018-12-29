@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage title</title>
+    <link rel="stylesheet" href="style-div1.css">
+    <meta charset="utf-8">
+</head>
+<body>
+
+    <div id="top">
+    </div>
+    
+    <div id="clear-floating">
+    </div>
+
+    <div id="left">
+    </div>
+    
+    <div id="middle"> 
+    </div>
+    
+    <div id="right">
+    </div>
+    
+    <div id="clear-floating">
+    </div>
+
+    <div id="bottom">
+    </div>
+
+    
+
+</body>
+</html>
